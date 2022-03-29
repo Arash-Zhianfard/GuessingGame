@@ -4,7 +4,7 @@ namespace WebApp.Models
 {
     public class SigninRequest
     {
-        [Required(ErrorMessage = "Wrong UserName")]
+        [Required(ErrorMessage = "UserName is required")]
         [MaxLength(15, ErrorMessage = "Max Error")]
         public string Username { get; set; }
 
